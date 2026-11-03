@@ -1,0 +1,193 @@
+@charset "UTF-8";
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: rgba(0, 0, 0, 0.8);
+    font-family: sans-serif;
+    text-align: center;
+    padding-top: 10px;
+}
+.body-menu a{
+    box-sizing: border-box;
+}
+h1 {
+    display: inline-block;
+    color: #00ffef;
+    font-size: 50px;
+    font-weight: bold;
+    background-color: rgba(64, 64, 64, 0.5);
+    border-radius: 9px;
+    padding: 10px 20px;
+    box-shadow: black;
+    border: 2px solid rgba(64, 64, 64, 0.5);
+}
+.menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: left;
+    gap: 5px;
+}
+.menu a {
+    color: aqua;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 15px;
+    transition: 0.5s;
+    background-color: rgba(64, 64, 64, 0.5);
+    border-radius: 9px;
+    padding: 10px 20px;
+    box-shadow: black;
+    border: 2px solid rgba(64, 64, 64, 0.5);
+}
+.menu a:hover {
+    color: white;
+    background: rgba(64, 64, 64, 0.5);
+    border-radius: 9px;
+}
+.menu b {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 15px;
+    transition: 0.5s;
+    background-color: rgba(64, 64, 64, 0.5);
+    border-radius: 9px;
+    padding: 10px 20px;
+    box-shadow: black;
+    border: 2px solid rgba(64, 64, 64, 0.5);
+}
+.menu b:hover {
+    color: white;
+    background: rgba(64, 64, 64, 0.5);
+    border-radius: 9px;
+}
+.footer-container {
+    max-width: 900px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 30px
+}
+.site-footer {
+    background-color: black;
+    color: white;
+    font-family: "Noto Sans JP";
+    padding: 40px;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+}
+.footer-left h2 {
+    color: white;
+    font-size: 1.4rem;
+    margin: 0 0 12px 0;
+    font-weight: bold;
+    text-align: left;
+}
+.footer-left p {
+    font-size: 0.85rem;
+    line-height: 1.5;
+    color: rgba(255, 255, 255, 0.5);
+    max-width: 350px;
+    margin: 0;
+    text-align: left;
+}
+.footer-right h2 {
+    font-size: 1.1rem;
+    color: white;
+    margin: 0 0 12px 0;
+    font-weight: bold;
+    text-align: right;
+}
+.footer-right p {
+    font-size: 1.0rem;
+    line-height: 1.5;
+    color: rgba(255, 255, 255, 0.5);
+    max-width: 350px;
+    margin: 0;
+    text-align: right;
+}
+.footer-menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex;
+    gap: 5px;
+    display: inline-block;
+}
+.footer-menu a {
+    font-size: 1.0rem;
+    text-decoration: none;
+    line-height: 1.5;
+    color: rgba(255, 255, 255, 0.5);
+    max-width: 350px;
+    margin: 0;
+    transition: 0.5s;
+    text-align: right;
+    position: relative;
+    z-index: 10px;
+}
+.footer-menu a:hover {
+    font-size: 1.0rem;
+    text-decoration: none;
+    line-height: 1.5;
+    color: rgba(0, 255, 255, 1);
+    max-width: 350px;
+    margn: 0;
+    text-align: right;
+}
+.footer-menu b {
+    font-size: 1.0rem;
+    text-decoration: none;
+    line-height: 1.5;
+    color: white;
+    max-width: 350px;
+    margn: 0;
+    text-align: right;
+    position: relative;
+    z-index: 10px;
+}
+.footer-menu b:hover {
+    font-size: 1.0rem;
+    text-decoration: none;
+    line-height: 1.5;
+    color: white;
+    max-width: 350px;
+    margn: 0;
+    text-align: right;
+}
+.footer-center h2 {
+    font-size: 1.1rem;
+    color: white;
+    margin: 0 0 12px 0;
+    font-weight: bold;
+    text-align: center;
+}
+.footer-center p {
+    font-size: 1.0rem;
+    line-height: 1.5;
+    color: rgba(255, 255, 255, 0.5);
+    max-width: 350px;
+    margn: 0;
+    text-align: right;
+}
+.footer-bottom {
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+    border-top: 2px solid rgba(255, 255, 255, 0.5);
+    padding-top: 20px;
+    clear: both;
+}
+.footer-bottom p {
+    font-size: 1.0rem;
+    line-height: 1.5;
+    color: rgba(255, 255, 255, 0.5);
+    text-align: center !important;
+    margin: 0 auto;
+}
